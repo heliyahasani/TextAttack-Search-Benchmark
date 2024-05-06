@@ -19,7 +19,7 @@ def run(model, recipe_path, txt_log_path, csv_log_path, chkpt_path=None, num_exa
     else:
         chkpt_path = os.path.join(CHECKPOINT_DIR, chkpt_path)
 
-    basic_settings = ["--attack-n", "--shuffle=False", "--parallel", "--disable-stdout"]
+    basic_settings = ["--attack-n", "--parallel", "--disable-stdout"]
     command = ["textattack", "attack", "--model", model, "--attack-from-file", f"{recipe_path}^Attack",
             "--num-examples", str(num_examples), "--checkpoint-dir", chkpt_path,
             "--checkpoint-interval", str(CHECKPOINT_INTERVAL), "--log-to-txt", txt_log_path, "--log-to-csv", csv_log_path

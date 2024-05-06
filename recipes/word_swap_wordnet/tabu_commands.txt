@@ -1,0 +1,2 @@
+python run_experiment.py --model bert-base-uncased-mr --recipe-path /home/heliya/Desktop/thesis/thesis/TextAttack-Search-Benchmark/recipes/word_swap_wordnet/strict/tabu_search/tabu_semantic_recipe.py --txt-log-path . --csv-log-path .
+ 
