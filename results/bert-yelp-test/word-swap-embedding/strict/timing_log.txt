@@ -1,0 +1,6 @@
+bert-base-uncased-yelp, word-swap-embedding, strict, greedy: 4.52 minutes
+bert-base-uncased-yelp, word-swap-embedding, strict, beam4: 0.26 minutes
+bert-base-uncased-yelp, word-swap-embedding, strict, beam8: 0.26 minutes
+bert-base-uncased-yelp, word-swap-embedding, strict, beam16: 0.27 minutes
+bert-base-uncased-yelp, word-swap-embedding, strict, beam32: 0.26 minutes
+bert-base-uncased-yelp, word-swap-embedding, strict, beam64: 0.45 minutes

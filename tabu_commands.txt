@@ -1,0 +1,4 @@
+python run_experiment.py --model bert-base-uncased-mr --recipe-path /home/heliya/Desktop/TextAttack-Search-Benchmark/recipes/word_swap_wordnet/strict/beam-search/beam4-recipe.py --txt-log-path . --csv-log-path .
+
+
+textattack attack --model bert-base-uncased-yelp --attack-from-file recipes/word-swap-wordnet/strict/beam-search/greedy-recipe.py^Attack --num-examples 1000 --checkpoint-dir /home/heliya/Desktop/TextAttack-Search-Benchmark/checkpoints/bert-yelp-test/word-swap-wordnet/strict/greedy --checkpoint-interval 100 --log-to-txt results/bert-yelp-test/word-swap-wordnet/strict/greedy.txt --log-to-csv results/bert-yelp-test/word-swap-wordnet/strict/greedy.csv --attack-n --parallel --disable-stdout
