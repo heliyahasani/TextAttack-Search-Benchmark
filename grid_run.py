@@ -1,5 +1,4 @@
 import os
-import time
 import run_experiment
 
 MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr", "lstm-mr", "lstm-yelp"]
@@ -12,13 +11,13 @@ MODEL_RESULT = {
 TRANSFORMATIONS = ["word-swap-wordnet", "word-swap-embedding", "word-swap-hownet"]
 CONSTRAINT_LEVEL = ["strict"]
 SEARCH_METHODS = {
-    "beam-search": ["greedy", "beam4", "beam8", "beam16", "beam32", "beam64"],
+    "beam-search": ["greedy", "beam4", "beam8", "beam16", "beam32"],
     "greedy-word-wir": ["delete", "unk", "pwws", "gradient", "random"],
     "population": ["genetic", "pso"],
 }
 
-print(f"Running experiment for models: {MODELS}")
-num_examples = 500
+print(f'Running experiment for model "{MODELS}"')
+
 for model in MODELS:
     for transformation in TRANSFORMATIONS:
         for constraint in CONSTRAINT_LEVEL:
@@ -42,30 +41,10 @@ for model in MODELS:
                     log_csv_path = f"{result_dir}/{result_file_name}.csv"
                     chkpt_path = f"{exp_base_name}/{result_file_name}"
 
-                    # Measure the start time
-                    start_time = time.time()
-
                     run_experiment.run(
                         model,
                         recipe_path,
-                        num_examples,
                         log_txt_path,
                         log_csv_path,
                         chkpt_path=chkpt_path,
                     )
-
-                    # Measure the end time
-                    end_time = time.time()
-                    elapsed_time = end_time - start_time
-                    elapsed_minutes = elapsed_time / 60
-
-                    # Print and log the elapsed time
-                    print(
-                        f"Experiment {model} {transformation} {constraint} {search} completed in {elapsed_minutes:.2f} minutes."
-                    )
-
-                    # Append the time taken to a log file
-                    with open(f"{result_dir}/timing_log.txt", "a") as log_file:
-                        log_file.write(
-                            f"{model}, {transformation}, {constraint}, {search}: {elapsed_minutes:.2f} minutes\n"
-                        )
