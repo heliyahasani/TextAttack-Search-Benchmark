@@ -15,6 +15,6 @@ def Attack(model):
     search_method = textattack.search_methods.BeamSearch(beam_width=4)
     transformation = TRANSFORMATION
     constraints = CONSTRAINTS
-    return textattack.shared.Attack(
+    return textattack.attack.Attack(
         goal_function, constraints, transformation, search_method
     )

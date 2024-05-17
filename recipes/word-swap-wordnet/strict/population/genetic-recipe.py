@@ -17,6 +17,6 @@ def Attack(model):
     )
     transformation = TRANSFORMATION
     constraints = CONSTRAINTS
-    return textattack.shared.Attack(
+    return textattack.attack.Attack(
         goal_function, constraints, transformation, search_method
     )
