@@ -18,7 +18,7 @@ SEARCH_METHODS = {
 }
 
 print(f"Running experiment for models: {MODELS}")
-
+num_examples = 500
 for model in MODELS:
     for transformation in TRANSFORMATIONS:
         for constraint in CONSTRAINT_LEVEL:
@@ -48,6 +48,7 @@ for model in MODELS:
                     run_experiment.run(
                         model,
                         recipe_path,
+                        num_examples,
                         log_txt_path,
                         log_csv_path,
                         chkpt_path=chkpt_path,
