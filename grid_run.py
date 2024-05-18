@@ -11,7 +11,7 @@ MODEL_RESULT = {
 TRANSFORMATIONS = ["word-swap-wordnet", "word-swap-embedding", "word-swap-hownet"]
 CONSTRAINT_LEVEL = ["strict"]
 SEARCH_METHODS = {
-    "tabu_classic": ["tabu4", "tabu8", "tabu16"],
+    "tabu_classic": ["tabu4"],  # , "tabu8", "tabu16"
     # "tabu_agglomerative": [
     #     "tabu_agglomerative_average",
     #     "tabu_agglomerative_complete",
