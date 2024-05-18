@@ -9,13 +9,13 @@ sys.path.append(transformation_dir)
 
 
 class EmbeddingBasedTabuSearch(SearchMethod):
-    def perform_search(self, initial_result, tabu_list_size=16, tabu_tenur=16):
-        """Perform a focused tabu search on  synonyms of words in the sentence, with tabu list and aspiration criteria."""
+    def perform_search(self, initial_result, tabu_list_size=4, tabu_tenur=4):
+        """Perform a focused tabu search on synonyms of words in the sentence, with tabu list and aspiration criteria."""
         beam = [initial_result.attacked_text]
         best_result = initial_result
         tabu_list = []
         tabu_list_size = tabu_list_size  # Example size, adjust based on your needs
-        tabu_tenur = tabu_list_size
+        tabu_tenur = tabu_tenur
 
         while not best_result.goal_status == GoalFunctionResultStatus.SUCCEEDED:
             potential_next_beam = []
@@ -26,7 +26,7 @@ class EmbeddingBasedTabuSearch(SearchMethod):
                 # Exclude transformations in the tabu list
                 transformations = [t for t in transformations if t not in tabu_list]
                 potential_next_beam += transformations
-            # print("potential", potential_next_beam)
+            print("potential", potential_next_beam)
 
             if len(potential_next_beam) == 0:
                 return best_result

@@ -46,50 +46,50 @@ class EmbeddingBasedTabuSearch(SearchMethod):
             self.fit_vectorizer([initial_result.attacked_text.printable_text()])
 
         beam = [initial_result.attacked_text]
-        best_result = initial_result
+        cluster_sizes = range(2, 11)  # Varying cluster sizes from 2 to 10
+        for n_clusters in cluster_sizes:
+            best_result = initial_result
+            while not best_result.goal_status == GoalFunctionResultStatus.SUCCEEDED:
+                potential_next_beam = []
+                texts = [
+                    t.printable_text()
+                    for t in beam
+                    for t in self.get_transformations(
+                        t, original_text=initial_result.attacked_text
+                    )
+                ]
+                if not texts:
+                    return best_result
 
-        while not best_result.goal_status == GoalFunctionResultStatus.SUCCEEDED:
-            potential_next_beam = []
-            texts = []
-            for text in beam:
-                transformations = self.get_transformations(
-                    text, original_text=initial_result.attacked_text
-                )
-                texts.extend([t.printable_text() for t in transformations])
-                potential_next_beam.extend(transformations)
+                features = self.extract_features(texts)
+                cluster_labels = self.perform_clustering(features, n_clusters)
 
-            if not potential_next_beam:
-                return best_result
+                filtered_transformations = [
+                    t
+                    for t, label in zip(potential_next_beam, cluster_labels)
+                    if label not in self.tabu_clusters or label == -1
+                ]
 
-            features = self.extract_features(texts)
-            cluster_labels = self.perform_clustering(features)
+                if not filtered_transformations:
+                    return best_result
 
-            filtered_transformations = [
-                t
-                for t, label in zip(potential_next_beam, cluster_labels)
-                if label not in self.tabu_clusters or label == -1
-            ]
+                results, search_over = self.get_goal_results(filtered_transformations)
+                scores = np.array([r.score for r in results])
+                if scores.size == 0:
+                    continue
 
-            if not filtered_transformations:
-                return best_result
+                best_result_index = scores.argmax()
+                best_result = results[best_result_index]
+                if search_over:
+                    return best_result
 
-            results, search_over = self.get_goal_results(filtered_transformations)
-            scores = np.array([r.score for r in results])
-            if scores.size == 0:
-                return best_result
+                best_indices = (-scores).argsort()[: len(beam)]
+                beam = [filtered_transformations[i] for i in best_indices]
 
-            best_result_index = scores.argmax()
-            best_result = results[best_result_index]
-            if search_over:
-                return best_result
-
-            best_indices = (-scores).argsort()[: len(beam)]
-            beam = [filtered_transformations[i] for i in best_indices]
-
-            for i in best_indices:
-                cluster_label = cluster_labels[i]
-                if scores[i] < 0.5 and cluster_label != -1:
-                    self.tabu_clusters.add(cluster_label)
+                for i in best_indices:
+                    cluster_label = cluster_labels[i]
+                    if scores[i] < 0.5 and cluster_label != -1:
+                        self.tabu_clusters.add(cluster_label)
 
         return best_result
 
