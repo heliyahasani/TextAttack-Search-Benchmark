@@ -37,7 +37,7 @@ def run(
     ] + basic_settings
 
     print(f"Running: {' '.join(command)}")
-    subprocess.run(command)
+    return subprocess.Popen(command)
 
 
 if __name__ == "__main__":

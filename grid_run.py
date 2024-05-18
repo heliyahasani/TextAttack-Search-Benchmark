@@ -1,4 +1,7 @@
+import datetime
 import os
+import subprocess
+from time import sleep
 import run_experiment
 
 MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr", "lstm-mr", "lstm-yelp"]
@@ -11,7 +14,7 @@ MODEL_RESULT = {
 TRANSFORMATIONS = ["word-swap-wordnet", "word-swap-embedding", "word-swap-hownet"]
 CONSTRAINT_LEVEL = ["strict"]
 SEARCH_METHODS = {
-    "tabu_classic": ["tabu4"],  # , "tabu8", "tabu16"
+    "tabu_classic": ["tabu4", "tabu8", "tabu16"],
     # "tabu_agglomerative": [
     #     "tabu_agglomerative_average",
     #     "tabu_agglomerative_complete",
@@ -27,6 +30,9 @@ SEARCH_METHODS = {
 
 
 print(f'Running experiment for model "{MODELS}"')
+
+
+procs = []
 
 for model in MODELS:
     for transformation in TRANSFORMATIONS:
@@ -51,10 +57,40 @@ for model in MODELS:
                     log_csv_path = f"{result_dir}/{result_file_name}.csv"
                     chkpt_path = f"{exp_base_name}/{result_file_name}"
 
-                    run_experiment.run(
+                    start_time = datetime.datetime.now()
+                    print(
+                        f"Starting: Model={model}, Transformation={transformation}, Method={search}"
+                    )
+
+                    proc = run_experiment.run(
                         model,
                         recipe_path,
                         log_txt_path,
                         log_csv_path,
                         chkpt_path=chkpt_path,
                     )
+                    # proc = subprocess.Popen(["./test.sh", exp_base_name])
+                    procs.append(
+                        (
+                            proc,
+                            {
+                                "start_time": start_time,
+                                "model": model,
+                                "transformation": transformation,
+                                "search_method": search,
+                                "exp_base_name": exp_base_name,
+                            },
+                        )
+                    )
+
+for p in procs:
+    process = p[0]
+    context = p[1]
+    process.wait()
+    end_time = datetime.datetime.now()
+    duration = end_time - context["start_time"]
+    os.makedirs(context["exp_base_name"], exist_ok=True)
+    txt_log_path = os.path.join(context["exp_base_name"], "log.txt")
+    print(
+        f"Finished: {context['model']}, {context['transformation']}, {context['search_method']}, duration: {duration}"
+    )
