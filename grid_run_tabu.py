@@ -22,7 +22,7 @@ for model in MODELS:
         for constraint in CONSTRAINT_LEVEL:
             for family in SEARCH_METHODS:
                 for search in SEARCH_METHODS[family]:
-                    recipe_path = f"recipes/{transformation}/{constraint}/{family}/{search}-recipe.py"
+                    recipe_path = f"recipes/{transformation}/{constraint}/{family}/{search}_recipe.py"
                     result_file_name = (
                         f"greedyWIR_{search}" if family == "greedy-word-wir" else search
                     )
