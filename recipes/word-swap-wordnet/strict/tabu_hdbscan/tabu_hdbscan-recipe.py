@@ -9,7 +9,7 @@ sys.path.append(constraint_dir)
 sys.path.append(transformation_dir)
 from transformation import TRANSFORMATION
 from constraint import CONSTRAINTS
-from recipes.word_swap_wordnet.strict.tabu_hdbscan.tabu_hdbscan import (
+from tabu_hdbscan import (
     EmbeddingBasedTabuSearch,
 )
 
