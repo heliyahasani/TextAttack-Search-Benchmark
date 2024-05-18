@@ -14,7 +14,20 @@ SEARCH_METHODS = {
     "beam-search": ["greedy", "beam4", "beam8", "beam16", "beam32"],
     "greedy-word-wir": ["delete", "unk", "pwws", "gradient", "random"],
     "population": ["genetic", "pso"],
+    "tabu_classic": ["tabu4", "tabu8", "tabu16"],
+    "tabu_agglomerative": [
+        "tabu_agglomerative_average",
+        "tabu_agglomerative_complete",
+        "tabu_agglomerative_single",
+        "tabu_agglomerative_ward",
+    ],
+    "tabu_dbscan": ["tabu_dbscan"],
+    "tabu_dynamic_tenure": ["tabu_dynamic_tenure", "tabu_dynamic"],
+    "tabu_hdbscan": ["tabu_hdbscan"],
+    "tabu_kmeans": ["tabu_kmeans"],
+    "tabu_semantic_similarity": ["tabu_semantic_similarity"],
 }
+
 
 print(f'Running experiment for model "{MODELS}"')
 

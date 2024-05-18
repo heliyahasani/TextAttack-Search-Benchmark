@@ -12,6 +12,7 @@ class EmbeddingBasedTabuSearch(SearchMethod):
         self.cluster_model = DBSCAN(eps=eps, min_samples=min_samples)
         self.tabu_clusters = set()
         self.is_vectorizer_fitted = False
+        self.eps = eps
 
     def fit_vectorizer(self, corpus):
         corpus = [
@@ -85,7 +86,9 @@ class EmbeddingBasedTabuSearch(SearchMethod):
 
             for i in best_indices:
                 cluster_label = cluster_labels[i]
-                if scores[i] < 0.5 and cluster_label != -1:  # Do not tabu noise points
+                if (
+                    scores[i] < self.eps and cluster_label != -1
+                ):  # Do not tabu noise points
                     self.tabu_clusters.add(cluster_label)
 
         return best_result
