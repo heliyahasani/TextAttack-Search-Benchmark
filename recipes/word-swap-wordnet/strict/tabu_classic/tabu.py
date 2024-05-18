@@ -26,7 +26,7 @@ class EmbeddingBasedTabuSearch(SearchMethod):
                 # Exclude transformations in the tabu list
                 transformations = [t for t in transformations if t not in tabu_list]
                 potential_next_beam += transformations
-            print("potential", potential_next_beam)
+            # print("potential", potential_next_beam)
 
             if len(potential_next_beam) == 0:
                 return best_result
