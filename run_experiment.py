@@ -16,7 +16,7 @@ def run(
     else:
         chkpt_path = os.path.join(CHECKPOINT_DIR, chkpt_path)
 
-    basic_settings = ["--attack-n", "--disable-stdout"]
+    basic_settings = ["--attack-n", "--parallel", "--disable-stdout"]
     command = [
         "textattack",
         "attack",

@@ -1,7 +1,0 @@
-Experiment completed in 0:00:01.003448.
-Experiment completed in 0:00:01.005386.
-Experiment completed in 0:00:01.005044.
-Experiment completed in 0:00:01.005927.
-Experiment completed in 0:00:01.003209.
-Experiment completed in 0:00:01.003028.
-Experiment completed in 0:00:01.003124.
