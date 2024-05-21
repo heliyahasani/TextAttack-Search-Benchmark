@@ -6,6 +6,8 @@ import run_experiment
 
 # MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr", "lstm-mr", "lstm-yelp"]
 MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr"]
+#MODELS = ["lstm-mr", "lstm-yelp"]
+
 
 MODEL_RESULT = {
     "bert-base-uncased-mr": "bert-mr-test",
@@ -18,14 +20,13 @@ TRANSFORMATIONS = ["word-swap-wordnet"]
 
 CONSTRAINT_LEVEL = ["strict"]
 SEARCH_METHODS = {
-    "tabu_classic": ["tabu4"],
     # "tabu_classic": ["tabu4", "tabu8", "tabu16"],
-    # "tabu_agglomerative": [
-    #     "tabu_agglomerative_average",
-    #     "tabu_agglomerative_complete",
-    #     "tabu_agglomerative_single",
-    #     "tabu_agglomerative_ward",
-    # ],
+    "tabu_agglomerative": [
+      "tabu_agglomerative_average",
+        "tabu_agglomerative_complete",
+        "tabu_agglomerative_single",
+        "tabu_agglomerative_ward",
+    ]
     # "tabu_dbscan": ["tabu_dbscan"],
     # "tabu_dynamic_tenure": ["tabu_dynamic_tenure", "tabu_dynamic"],
     # "tabu_hdbscan": ["tabu_hdbscan"],
