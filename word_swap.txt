@@ -1,0 +1,126 @@
+ (search_method): EmbeddingBasedTabuSearch
+  (goal_function):  UntargetedClassification
+  (transformation):  WordSwapEmbedding(
+    (max_candidates):  50
+    (embedding):  WordEmbedding
+  )
+  (constraints): 
+    (0): WordEmbeddingDistance(
+        (embedding):  WordEmbedding
+        (min_cos_sim):  0.9
+        (cased):  False
+        (include_unknown_words):  True
+        (compare_against_original):  True
+      )
+    (1): BERTScore(
+        (min_bert_score):  0.9
+        (model):  bert-base-uncased
+        (score_type):  f1
+        (compare_against_original):  True
+      )
+    (2): PartOfSpeech(
+        (tagger_type):  flair
+        (tagset):  universal
+        (allow_verb_noun_swap):  False
+        (compare_against_original):  True
+      )
+    (3): RepeatModification
+    (4): StopwordModification
+    (5): MaxWordIndexModification(
+        (max_length):  256
+      )
+    (6): InputColumnModification(
+        (matching_column_labels):  ['premise', 'hypothesis']
+        (columns_to_ignore):  {'premise'}
+      )
+  (is_black_box):  True
+) 
+
+[Succeeded / Failed / Skipped / Total] 42 / 158 / 41 / 241: 100%|████████████████████████████████████| 200/200 [45:36<00:00, 13.68s/it]
+
+
+=============================================================================================================================
+=============================================================================================================================
+
+
+
+=============================================================================================================================
+=============================================================================================================================
+
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 42     |
+| Number of failed attacks:     | 158    |
+| Number of skipped attacks:    | 41     |
+| Original accuracy:            | 82.99% |
+| Accuracy under attack:        | 65.56% |
+| Attack success rate:          | 21.0%  |
+| Average perturbed word %:     | 9.85%  |
+| Average num. words per input: | 18.38  |
+| Avg num queries:              | 78.76  |
++-------------------------------+--------+
+[Succeeded / Failed / Skipped / Total] 42 / 158 / 41 / 241: 100%|████████████████████████████████████| 200/200 [45:43<00:00, 13.72s/it]Attack(
+  (search_method): EmbeddingBasedTabuSearch
+  (goal_function):  UntargetedClassification
+  (transformation):  WordSwapEmbedding(
+    (max_candidates):  50
+    (embedding):  WordEmbedding
+  )
+  (constraints): 
+    (0): WordEmbeddingDistance(
+        (embedding):  WordEmbedding
+        (min_cos_sim):  0.9
+        (cased):  False
+        (include_unknown_words):  True
+        (compare_against_original):  True
+      )
+    (1): BERTScore(
+        (min_bert_score):  0.9
+        (model):  bert-base-uncased
+        (score_type):  f1
+        (compare_against_original):  True
+      )
+    (2): PartOfSpeech(
+        (tagger_type):  flair
+        (tagset):  universal
+        (allow_verb_noun_swap):  False
+        (compare_against_original):  True
+      )
+    (3): RepeatModification
+    (4): StopwordModification
+    (5): MaxWordIndexModification(
+        (max_length):  256
+      )
+    (6): InputColumnModification(
+        (matching_column_labels):  ['premise', 'hypothesis']
+        (columns_to_ignore):  {'premise'}
+      )
+  (is_black_box):  True
+) 
+
+[Succeeded / Failed / Skipped / Total] 42 / 158 / 41 / 241: 100%|████████████████████████████████████| 200/200 [45:45<00:00, 13.73s/it]
+
+
+=============================================================================================================================
+=============================================================================================================================
+
+
+
+=============================================================================================================================
+=============================================================================================================================
+
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 42     |
+| Number of failed attacks:     | 158    |
+| Number of skipped attacks:    | 41     |
+| Original accuracy:            | 82.99% |
+| Accuracy under attack:        | 65.56% |
+| Attack success rate:          | 21.0%  |
+| Average perturbed word %:     | 9.85%  |
+| Average num. words per input: | 18.38  |
+| Avg num queries:              | 78.76  |
