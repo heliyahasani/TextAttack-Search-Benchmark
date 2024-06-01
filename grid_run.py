@@ -21,17 +21,8 @@ MODEL_RESULT = {
 TRANSFORMATIONS = ["word-swap-hownet"]
 CONSTRAINT_LEVEL = ["strict"]
 SEARCH_METHODS = {
-     "tabu_classic": ["tabu4", "tabu8"],
-   # "tabu_agglomerative": [
- #     "tabu_agglomerative_average",
-  #      "tabu_agglomerative_complete"
- #       "tabu_agglomerative_single",
-  #     "tabu_agglomerative_ward"
-    #]
-    # "tabu_dbscan": ["tabu_dbscan"],
     # "tabu_dynamic_tenure": ["tabu_dynamic_tenure", "tabu_dynamic"],
-    # "tabu_hdbscan": ["tabu_hdbscan"],
-    # "tabu_kmeans": ["tabu_kmeans"],
+    "tabu_hdbscan": ["tabu_hdbscan"],
     # "tabu_semantic_similarity": ["tabu_semantic_similarity"],
 }
 
