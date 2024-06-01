@@ -9,7 +9,7 @@ sys.path.append(transformation_dir)
 
 
 class EmbeddingBasedTabuSearch(SearchMethod):
-    def perform_search(self, initial_result, tabu_list_size=4, tabu_tenur=4):
+    def perform_search(self, initial_result, tabu_list_size=2, tabu_tenur=2):
         """Perform a focused tabu search on synonyms of words in the sentence, with tabu list and aspiration criteria."""
         beam = [initial_result.attacked_text]
         best_result = initial_result

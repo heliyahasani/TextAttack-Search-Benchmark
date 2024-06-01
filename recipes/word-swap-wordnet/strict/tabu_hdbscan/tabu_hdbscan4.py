@@ -6,7 +6,7 @@ import hdbscan
 
 
 class EmbeddingBasedTabuSearch(SearchMethod):
-    def __init__(self, min_cluster_size=5, min_samples=None):
+    def __init__(self, min_cluster_size=4, min_samples=None):
         super().__init__()
         self.vectorizer = TfidfVectorizer()
         self.cluster_model = hdbscan.HDBSCAN(

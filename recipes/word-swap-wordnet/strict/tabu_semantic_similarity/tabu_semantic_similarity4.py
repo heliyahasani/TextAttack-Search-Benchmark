@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 
 
 class EmbeddingBasedTabuSearch(SearchMethod):
-    def __init__(self, model="all-MiniLM-L6-v2", tabu_size=10, threshold=0.5):
+    def __init__(self, model="all-MiniLM-L6-v2", tabu_size=4, threshold=0.5):
 
         self.model = SentenceTransformer(model)
         self.tabu_list = []
