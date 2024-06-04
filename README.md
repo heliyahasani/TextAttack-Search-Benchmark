@@ -28,6 +28,9 @@ Evaluation of results are done in `autoevaluation.ipynb` notebook.
 ## Citing
 To cite this work, please use
 
+## Python 
+3.10.14
+
 ```
 @misc{yoo2020searching,
       title={Searching for a Search Method: Benchmarking Search Algorithms for Generating NLP Adversarial Examples}, 

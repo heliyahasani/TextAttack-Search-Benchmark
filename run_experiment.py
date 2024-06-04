@@ -9,7 +9,7 @@ CHECKPOINT_INTERVAL = 100
 
 
 def run(
-    model, recipe_path, txt_log_path, csv_log_path, chkpt_path=None, num_examples=500
+    model, recipe_path, txt_log_path, csv_log_path, chkpt_path=None, num_examples=200
 ):
     if not chkpt_path:
         chkpt_path = CHECKPOINT_DIR
