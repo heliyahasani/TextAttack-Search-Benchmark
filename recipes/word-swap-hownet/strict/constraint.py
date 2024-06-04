@@ -6,6 +6,7 @@ STOPWORDS = set(['a', 'about', 'above', 'across', 'after', 'afterwards', 'again'
 
 # Strict Constraints
 MAX_LENGTH = 256
+COSINE_SIM = 0.9
 BERT_SCORE_SIM = 0.9
 ALLOW_VERB_NOUN_SWAP = False
 TAGGER_TYPE = "flair"
@@ -15,6 +16,7 @@ CONSTRAINTS = [
     StopwordModification(stopwords=STOPWORDS),
     MaxWordIndexModification(max_length = MAX_LENGTH),
     InputColumnModification(["premise", "hypothesis"], {"premise"}),
+    WordEmbeddingDistance(min_cos_sim=COSINE_SIM),
     BERTScore(min_bert_score=BERT_SCORE_SIM),
     PartOfSpeech(tagger_type=TAGGER_TYPE, allow_verb_noun_swap=ALLOW_VERB_NOUN_SWAP)
 ]
