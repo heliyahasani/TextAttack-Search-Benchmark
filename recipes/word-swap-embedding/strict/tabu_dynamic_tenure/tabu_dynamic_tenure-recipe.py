@@ -9,7 +9,9 @@ sys.path.append(constraint_dir)
 sys.path.append(transformation_dir)
 from transformation import TRANSFORMATION
 from constraint import CONSTRAINTS
-from tabu3 import EmbeddingBasedTabuSearch
+from tabu_dynamic_tenure import (
+    EmbeddingBasedTabuSearch,
+)
 
 
 def Attack(model):
