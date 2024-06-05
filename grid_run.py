@@ -4,8 +4,8 @@ import subprocess
 from time import sleep
 import run_experiment
 
-MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr"]
-#MODELS = ["lstm-mr", "lstm-yelp"]
+#MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr"]
+MODELS = ["lstm-mr", "lstm-yelp"]
 
 MODEL_RESULT = {
     "bert-base-uncased-mr": "bert-mr-test",
