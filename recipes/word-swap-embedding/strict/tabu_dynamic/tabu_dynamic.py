@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 
 class DynamicTabuList:
     def __init__(
-        self, model, base_size=10, max_size=30, base_threshold=0.6, max_threshold=0.9
+        self, model, base_size=2, max_size=30, base_threshold=0.4, max_threshold=0.9
     ):
         self.model = model
         self.base_size = base_size
