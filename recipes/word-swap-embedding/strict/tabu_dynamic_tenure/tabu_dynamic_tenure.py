@@ -4,7 +4,7 @@ from textattack.goal_function_results import GoalFunctionResultStatus
 
 
 class EmbeddingBasedTabuSearch(SearchMethod):
-    def perform_search(self, initial_result, tabu_list_size, tabu_tenure_size):
+    def perform_search(self, initial_result, tabu_list_size=4, tabu_tenure_size=4):
         beam = [initial_result.attacked_text]
         best_result = initial_result
         tabu_list = []
