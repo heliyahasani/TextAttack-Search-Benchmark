@@ -5,8 +5,8 @@ from time import sleep
 import run_experiment
 
 
-MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr"]
-# MODELS = ["lstm-mr", "lstm-yelp"]
+#MODELS = ["bert-base-uncased-yelp", "bert-base-uncased-mr"]
+MODELS = ["lstm-mr", "lstm-yelp"]
 
 
 MODEL_RESULT = {
@@ -16,9 +16,9 @@ MODEL_RESULT = {
     "lstm-mr": "lstm-mr-test",
 }
 # TRANSFORMATIONS = ["word-swap-wordnet", "word-swap-embedding", "word-swap-hownet"]
-# TRANSFORMATIONS = ["word-swap-wordnet"]
-# TRANSFORMATIONS = ["word-swap-embedding"]
-TRANSFORMATIONS = ["word-swap-hownet"]
+TRANSFORMATIONS = ["word-swap-wordnet"]
+#TRANSFORMATIONS = ["word-swap-embedding"]
+#TRANSFORMATIONS = ["word-swap-hownet"]
 CONSTRAINT_LEVEL = ["strict"]
 SEARCH_METHODS = {
     "tabu_dynamic_tenure": ["tabu_dynamic_tenure"],
