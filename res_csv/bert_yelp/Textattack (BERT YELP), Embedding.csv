@@ -1,0 +1,19 @@
+Algorithm,Successful Attacks,Failed Attacks,Skipped Attacks,Original Accuracy,Accuracy Under Attack,Attack Success Rate,Average Perturbed Word %,Average Number of Words per Input,Average Number of Queries
+kmeans8,0,200,2,99.01%,99.01%,0.0%,nan%,135.14,1.4
+semantic similarity4,3,197,2,99.01%,97.52%,1.5%,1.46%,135.14,41.36
+semantic similarity8,3,197,2,99.01%,97.52%,1.5%,1.46%,135.14,37.38
+kmeans,0,200,3,99.01%,99.01%,0.0%,nan%,145.18,1.2
+tabu agglomerative ward,0,200,2,99.01%,99.01%,0.0%,nan%,135.14,1.0
+tabu agglomerative single,0,200,2,99.01%,99.01%,0.0%,nan%,135.14,1.0
+tabu agglomerative complete,0,500,11,97.85%,97.85%,0.0%,nan%,131.73,1.0
+tabu agglomerative average,0,500,11,97.85%,97.85%,0.0%,nan%,131.73,1.0
+tabu2,72,128,2,99.01%,63.37%,36.0%,5.15%,135.14,1392.42
+tabu4,42,158,41,82.99%,65.56%,21.0%,9.85%,18.38,78.76
+tabu8,110,90,2,99.01%,44.55%,55.0%,4.54%,135.14,4239.8
+dbscan,0,200,2,99.01%,99.01%,0.0%,nan%,135.14,1.0
+hdbscan4,54,146,2,99.01%,72.28%,27.0%,6.87%,135.14,478.06
+hdbscan8,67,133,2,99.01%,65.84%,33.5%,5.16%,135.14,736.44
+dynamic,0,200,2,99.01%,99.01%,0.0%,nan%,135.14,1.66
+dynamic tenure,68,132,2,99.01%,65.35%,34.0%,5.17%,135.14,754.62
+dynamic tenure8,68,132,2,99.01%,65.35%,34.0%,5.17%,135.14,754.54
+dynamic tenure8,78,122,63,76.05%,46.39%,39.0%,9.53%,18.06,26.76

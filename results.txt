@@ -1,0 +1,300 @@
+=============================================
+bert-yelp-test/word-swap-embedding/strict
+---------------------------------------------
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+Model: bert-yelp-test	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_dbscan.csv: division by zero
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_dynamic.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-yelp-test/word-swap-embedding/strict/tabu_hdbscan4.csv'
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_kmeans8.csv: division by zero
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+=============================================
+bert-yelp-test/word-swap-hownet/strict
+---------------------------------------------
+Model: bert-yelp-test	  Word Changed Percent: 0.62 	 USE Sim: 0.322 	 PP Diff: -1.8
+Model: bert-yelp-test	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+Model: bert-yelp-test	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_dbscan.csv: division by zero
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_dynamic.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-yelp-test/word-swap-hownet/strict/tabu_hdbscan4.csv'
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_kmeans8.csv: division by zero
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+=============================================
+bert-yelp-test/word-swap-wordnet/strict
+---------------------------------------------
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+Model: bert-yelp-test	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_dbscan.csv: division by zero
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_dynamic.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-yelp-test/word-swap-wordnet/strict/tabu_hdbscan4.csv'
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_kmeans8.csv: division by zero
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Model: bert-yelp-test	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+=============================================
+bert-mr-test/word-swap-embedding/strict
+---------------------------------------------
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_dbscan.csv: division by zero
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.33 	 USE Sim: 0.046 	 PP Diff: 0.9
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-mr-test/word-swap-embedding/strict/tabu_hdbscan4.csv'
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-embedding/strict/tabu_kmeans8.csv: division by zero
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+=============================================
+bert-mr-test/word-swap-hownet/strict
+---------------------------------------------
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.29 	 USE Sim: 0.047 	 PP Diff: 2.7
+Model: bert-mr-test	  Word Changed Percent: 0.29 	 USE Sim: 0.047 	 PP Diff: 2.7
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_dbscan.csv: division by zero
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.33 	 USE Sim: 0.046 	 PP Diff: 0.9
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-mr-test/word-swap-hownet/strict/tabu_hdbscan4.csv'
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-hownet/strict/tabu_kmeans8.csv: division by zero
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+=============================================
+bert-mr-test/word-swap-wordnet/strict
+---------------------------------------------
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.29 	 USE Sim: 0.047 	 PP Diff: 2.7
+Model: bert-mr-test	  Word Changed Percent: 0.29 	 USE Sim: 0.047 	 PP Diff: 2.7
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_dbscan.csv: division by zero
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.33 	 USE Sim: 0.046 	 PP Diff: 0.9
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-mr-test/word-swap-wordnet/strict/tabu_hdbscan4.csv'
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/bert-mr-test/word-swap-wordnet/strict/tabu_kmeans8.csv: division by zero
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+Model: bert-mr-test	  Word Changed Percent: 0.3 	 USE Sim: 0.047 	 PP Diff: 1.8
+=============================================
+bert-snli-test/word-swap-embedding/strict
+---------------------------------------------
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu2.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu2.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_average.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_average.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_complete.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_complete.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_single.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_single.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_ward.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_agglomerative_ward.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_dbscan.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_dbscan.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_dynamic_tenure.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_dynamic_tenure.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_dynamic_tenure8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_dynamic_tenure8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_dynamic.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_dynamic.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_hdbscan4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_hdbscan8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_hdbscan8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_kmeans.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_kmeans.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_kmeans8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_kmeans8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_semantic_similarity4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_semantic_similarity4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu_semantic_similarity8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu_semantic_similarity8.csv'
+=============================================
+bert-snli-test/word-swap-hownet/strict
+---------------------------------------------
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu2.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu2.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_average.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_average.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_complete.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_complete.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_single.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_single.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_ward.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_agglomerative_ward.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_dbscan.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_dbscan.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_dynamic_tenure.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_dynamic_tenure.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_dynamic_tenure8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_dynamic_tenure8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_dynamic.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_dynamic.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_hdbscan4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_hdbscan8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_hdbscan8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_kmeans.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_kmeans.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_kmeans8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_kmeans8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_semantic_similarity4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_semantic_similarity4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu_semantic_similarity8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu_semantic_similarity8.csv'
+=============================================
+bert-snli-test/word-swap-wordnet/strict
+---------------------------------------------
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu2.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu2.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_average.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_average.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_complete.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_complete.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_single.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_single.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_ward.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_agglomerative_ward.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_dbscan.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_dbscan.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_dynamic_tenure.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_dynamic_tenure.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_dynamic_tenure8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_dynamic_tenure8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_dynamic.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_dynamic.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_hdbscan4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_hdbscan8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_hdbscan8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_kmeans.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_kmeans.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_kmeans8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_kmeans8.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_semantic_similarity4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_semantic_similarity4.csv'
+Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu_semantic_similarity8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu_semantic_similarity8.csv'
+=============================================
+lstm-yelp-test/word-swap-embedding/strict
+---------------------------------------------
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu2.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu2.csv'
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu4.csv'
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu8.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu8.csv'
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_dbscan.csv: division by zero
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_dynamic_tenure8.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_dynamic.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu_hdbscan4.csv'
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_kmeans.csv: division by zero
+Model: lstm-yelp-test	  Word Changed Percent: 0.12 	 USE Sim: 0.08 	 PP Diff: 1.0
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+=============================================
+lstm-yelp-test/word-swap-hownet/strict
+---------------------------------------------
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu2.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-hownet/strict/tabu2.csv'
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.96 	 PP Diff: 21.3
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.96 	 PP Diff: 21.3
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_dbscan.csv: division by zero
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.959 	 PP Diff: 11.8
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.959 	 PP Diff: 11.8
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_dynamic.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-hownet/strict/tabu_hdbscan4.csv'
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.959 	 PP Diff: 11.8
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_kmeans.csv: division by zero
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.959 	 PP Diff: 11.8
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.959 	 PP Diff: 11.8
+Model: lstm-yelp-test	  Word Changed Percent: 1.41 	 USE Sim: 0.959 	 PP Diff: 11.8
+=============================================
+lstm-yelp-test/word-swap-wordnet/strict
+---------------------------------------------
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-wordnet/strict/tabu4.csv'
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu8.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-wordnet/strict/tabu8.csv'
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_dbscan.csv: division by zero
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_dynamic.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-wordnet/strict/tabu_hdbscan4.csv'
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_kmeans8.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-wordnet/strict/tabu_kmeans8.csv'
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+Model: lstm-yelp-test	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+=============================================
+lstm-mr-test/word-swap-embedding/strict
+---------------------------------------------
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.13 	 USE Sim: 0.019 	 PP Diff: 1.6
+Model: lstm-mr-test	  Word Changed Percent: 0.13 	 USE Sim: 0.019 	 PP Diff: 1.6
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_dbscan.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.15 	 USE Sim: 0.019 	 PP Diff: 0.4
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/lstm-mr-test/word-swap-embedding/strict/tabu_hdbscan4.csv'
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-embedding/strict/tabu_kmeans8.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+=============================================
+lstm-mr-test/word-swap-hownet/strict
+---------------------------------------------
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.13 	 USE Sim: 0.019 	 PP Diff: 1.6
+Model: lstm-mr-test	  Word Changed Percent: 0.13 	 USE Sim: 0.019 	 PP Diff: 1.6
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_dbscan.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_dynamic_tenure8.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.15 	 USE Sim: 0.019 	 PP Diff: 0.4
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/lstm-mr-test/word-swap-hownet/strict/tabu_hdbscan4.csv'
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_kmeans8.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+=============================================
+lstm-mr-test/word-swap-wordnet/strict
+---------------------------------------------
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.13 	 USE Sim: 0.019 	 PP Diff: 1.6
+Model: lstm-mr-test	  Word Changed Percent: 0.13 	 USE Sim: 0.019 	 PP Diff: 1.6
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_agglomerative_average.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_agglomerative_complete.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_agglomerative_single.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_agglomerative_ward.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_dbscan.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_dynamic_tenure8.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.15 	 USE Sim: 0.019 	 PP Diff: 0.4
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_hdbscan4.csv: [Errno 2] No such file or directory: './results/lstm-mr-test/word-swap-wordnet/strict/tabu_hdbscan4.csv'
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_kmeans.csv: division by zero
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_kmeans8.csv: division by zero
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
+Model: lstm-mr-test	  Word Changed Percent: 0.12 	 USE Sim: 0.02 	 PP Diff: 0.6
