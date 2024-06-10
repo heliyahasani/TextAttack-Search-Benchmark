@@ -1,90 +1,147 @@
 =============================================
 bert-yelp-test/word-swap-embedding/strict
 ---------------------------------------------
-Model: bert-yelp-test	  Word Changed Percent: 0.08 	 USE Sim: 0.016 	 PP Diff: 0.6
-Model: bert-yelp-test	  Word Changed Percent: 0.04 	 USE Sim: 0.016 	 PP Diff: 0.4
-Model: bert-yelp-test	  Word Changed Percent: 0.04 	 USE Sim: 0.016 	 PP Diff: 0.4
+sm: tabu2	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu4	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+sm: tabu8	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-embedding/strict/tabu_dynamic.csv: division by zero
+sm: tabu_hdbscan8	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
 =============================================
 bert-yelp-test/word-swap-hownet/strict
 ---------------------------------------------
-Model: bert-yelp-test	  Word Changed Percent: 0.18 	 USE Sim: 0.033 	 PP Diff: 1.4
-Model: bert-yelp-test	  Word Changed Percent: 0.1 	 USE Sim: 0.034 	 PP Diff: 1.1
-Model: bert-yelp-test	  Word Changed Percent: 0.1 	 USE Sim: 0.034 	 PP Diff: 1.1
+sm: tabu2	  Word Changed Percent: 0.93 	 USE Sim: 0.483 	 PP Diff: -2.8
+sm: tabu4	  Word Changed Percent: 1.11 	 USE Sim: 0.471 	 PP Diff: 13.2
+sm: tabu8	  Word Changed Percent: 1.11 	 USE Sim: 0.471 	 PP Diff: 13.2
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.93 	 USE Sim: 0.483 	 PP Diff: -2.8
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 0.93 	 USE Sim: 0.483 	 PP Diff: -2.8
+Error evaluating ./results/bert-yelp-test/word-swap-hownet/strict/tabu_dynamic.csv: division by zero
+sm: tabu_hdbscan8	  Word Changed Percent: 0.93 	 USE Sim: 0.483 	 PP Diff: -2.8
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.93 	 USE Sim: 0.483 	 PP Diff: -2.8
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.93 	 USE Sim: 0.483 	 PP Diff: -2.8
 =============================================
 bert-yelp-test/word-swap-wordnet/strict
 ---------------------------------------------
-Model: bert-yelp-test	  Word Changed Percent: 0.08 	 USE Sim: 0.016 	 PP Diff: 0.6
-Model: bert-yelp-test	  Word Changed Percent: 0.04 	 USE Sim: 0.016 	 PP Diff: 0.4
-Model: bert-yelp-test	  Word Changed Percent: 0.04 	 USE Sim: 0.016 	 PP Diff: 0.4
+sm: tabu2	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu4	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+sm: tabu8	  Word Changed Percent: 0.58 	 USE Sim: 0.316 	 PP Diff: 5.5
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+Error evaluating ./results/bert-yelp-test/word-swap-wordnet/strict/tabu_dynamic.csv: division by zero
+sm: tabu_hdbscan8	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.5 	 USE Sim: 0.323 	 PP Diff: -0.4
 =============================================
 bert-mr-test/word-swap-embedding/strict
 ---------------------------------------------
-Model: bert-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.021 	 PP Diff: 1.2
-Model: bert-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.021 	 PP Diff: 1.2
-Model: bert-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.021 	 PP Diff: 1.2
+sm: tabu2	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu4	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu8	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu_dynamic_tenure	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu_dynamic	  Word Changed Percent: 2.1 	 USE Sim: 0.293 	 PP Diff: 5.4
+sm: tabu_hdbscan8	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu_semantic_similarity4	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
+sm: tabu_semantic_similarity8	  Word Changed Percent: 2.1 	 USE Sim: 0.294 	 PP Diff: 4.7
 =============================================
 bert-mr-test/word-swap-hownet/strict
 ---------------------------------------------
-Model: bert-mr-test	  Word Changed Percent: 0.71 	 USE Sim: 0.081 	 PP Diff: 4.8
-Model: bert-mr-test	  Word Changed Percent: 0.65 	 USE Sim: 0.081 	 PP Diff: 6.0
-Model: bert-mr-test	  Word Changed Percent: 0.65 	 USE Sim: 0.081 	 PP Diff: 6.0
+sm: tabu2	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu4	  Word Changed Percent: 9.09 	 USE Sim: 0.856 	 PP Diff: 35.6
+sm: tabu8	  Word Changed Percent: 9.09 	 USE Sim: 0.856 	 PP Diff: 35.6
+sm: tabu_dynamic_tenure	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_dynamic	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_hdbscan8	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_semantic_similarity4	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_semantic_similarity8	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
 =============================================
 bert-mr-test/word-swap-wordnet/strict
 ---------------------------------------------
-Model: bert-mr-test	  Word Changed Percent: 0.71 	 USE Sim: 0.081 	 PP Diff: 4.8
-Model: bert-mr-test	  Word Changed Percent: 0.65 	 USE Sim: 0.081 	 PP Diff: 6.0
-Model: bert-mr-test	  Word Changed Percent: 0.65 	 USE Sim: 0.081 	 PP Diff: 6.0
+sm: tabu2	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu4	  Word Changed Percent: 9.09 	 USE Sim: 0.856 	 PP Diff: 35.6
+sm: tabu8	  Word Changed Percent: 9.09 	 USE Sim: 0.856 	 PP Diff: 35.6
+sm: tabu_dynamic_tenure	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_dynamic	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_hdbscan8	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_semantic_similarity4	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
+sm: tabu_semantic_similarity8	  Word Changed Percent: 9.09 	 USE Sim: 0.903 	 PP Diff: 29.4
 =============================================
 bert-snli-test/word-swap-embedding/strict
 ---------------------------------------------
-Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu2.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu2.csv'
-Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu4.csv'
-Error evaluating ./results/bert-snli-test/word-swap-embedding/strict/tabu8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-embedding/strict/tabu8.csv'
 =============================================
 bert-snli-test/word-swap-hownet/strict
 ---------------------------------------------
-Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu2.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu2.csv'
-Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu4.csv'
-Error evaluating ./results/bert-snli-test/word-swap-hownet/strict/tabu8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-hownet/strict/tabu8.csv'
 =============================================
 bert-snli-test/word-swap-wordnet/strict
 ---------------------------------------------
-Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu2.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu2.csv'
-Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu4.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu4.csv'
-Error evaluating ./results/bert-snli-test/word-swap-wordnet/strict/tabu8.csv: [Errno 2] No such file or directory: './results/bert-snli-test/word-swap-wordnet/strict/tabu8.csv'
 =============================================
 lstm-yelp-test/word-swap-embedding/strict
 ---------------------------------------------
-Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu2.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu2.csv'
-Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu4.csv'
-Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu8.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-embedding/strict/tabu8.csv'
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_dynamic_tenure8.csv: division by zero
+Error evaluating ./results/lstm-yelp-test/word-swap-embedding/strict/tabu_dynamic.csv: division by zero
+sm: tabu_hdbscan8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
 =============================================
 lstm-yelp-test/word-swap-hownet/strict
 ---------------------------------------------
-Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu2.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-hownet/strict/tabu2.csv'
-Model: lstm-yelp-test	  Word Changed Percent: 0.02 	 USE Sim: 0.006 	 PP Diff: 0.3
-Model: lstm-yelp-test	  Word Changed Percent: 0.02 	 USE Sim: 0.006 	 PP Diff: 0.3
+sm: tabu4	  Word Changed Percent: 0.15 	 USE Sim: 0.08 	 PP Diff: 1.7
+sm: tabu8	  Word Changed Percent: 0.15 	 USE Sim: 0.08 	 PP Diff: 1.7
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-hownet/strict/tabu_dynamic.csv: division by zero
+sm: tabu_hdbscan8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
 =============================================
 lstm-yelp-test/word-swap-wordnet/strict
 ---------------------------------------------
-Model: lstm-yelp-test	  Word Changed Percent: 0.04 	 USE Sim: 0.01 	 PP Diff: 0.3
-Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu4.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-wordnet/strict/tabu4.csv'
-Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu8.csv: [Errno 2] No such file or directory: './results/lstm-yelp-test/word-swap-wordnet/strict/tabu8.csv'
+sm: tabu2	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+Error evaluating ./results/lstm-yelp-test/word-swap-wordnet/strict/tabu_dynamic.csv: division by zero
+sm: tabu_hdbscan8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 1.0
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.14 	 USE Sim: 0.08 	 PP Diff: 0.9
 =============================================
 lstm-mr-test/word-swap-embedding/strict
 ---------------------------------------------
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 1.4
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 2.3
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 2.3
+sm: tabu2	  Word Changed Percent: 2.42 	 USE Sim: 0.295 	 PP Diff: 6.1
+sm: tabu4	  Word Changed Percent: 2.42 	 USE Sim: 0.292 	 PP Diff: 30.7
+sm: tabu8	  Word Changed Percent: 2.42 	 USE Sim: 0.292 	 PP Diff: 30.7
+sm: tabu_dynamic_tenure	  Word Changed Percent: 2.42 	 USE Sim: 0.295 	 PP Diff: 6.1
+sm: tabu_dynamic_tenure8	  Word Changed Percent: 2.42 	 USE Sim: 0.295 	 PP Diff: 6.1
+sm: tabu_dynamic	  Word Changed Percent: 2.42 	 USE Sim: 0.297 	 PP Diff: 4.9
+sm: tabu_hdbscan8	  Word Changed Percent: 2.42 	 USE Sim: 0.295 	 PP Diff: 6.1
+sm: tabu_semantic_similarity4	  Word Changed Percent: 2.42 	 USE Sim: 0.295 	 PP Diff: 6.1
+sm: tabu_semantic_similarity8	  Word Changed Percent: 2.42 	 USE Sim: 0.295 	 PP Diff: 6.1
 =============================================
 lstm-mr-test/word-swap-hownet/strict
 ---------------------------------------------
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 1.4
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 2.3
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 2.3
+sm: tabu2	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+sm: tabu4	  Word Changed Percent: 0.66 	 USE Sim: 0.08 	 PP Diff: 8.4
+sm: tabu8	  Word Changed Percent: 0.66 	 USE Sim: 0.08 	 PP Diff: 8.4
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+Error evaluating ./results/lstm-mr-test/word-swap-hownet/strict/tabu_dynamic_tenure8.csv: division by zero
+sm: tabu_dynamic	  Word Changed Percent: 0.62 	 USE Sim: 0.082 	 PP Diff: 1.5
+sm: tabu_hdbscan8	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
 =============================================
 lstm-mr-test/word-swap-wordnet/strict
 ---------------------------------------------
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 1.4
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 2.3
-Model: lstm-mr-test	  Word Changed Percent: 0.21 	 USE Sim: 0.028 	 PP Diff: 2.3
+sm: tabu2	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+sm: tabu4	  Word Changed Percent: 0.66 	 USE Sim: 0.08 	 PP Diff: 8.4
+sm: tabu8	  Word Changed Percent: 0.66 	 USE Sim: 0.08 	 PP Diff: 8.4
+sm: tabu_dynamic_tenure	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+Error evaluating ./results/lstm-mr-test/word-swap-wordnet/strict/tabu_dynamic_tenure8.csv: division by zero
+sm: tabu_dynamic	  Word Changed Percent: 0.62 	 USE Sim: 0.082 	 PP Diff: 1.5
+sm: tabu_hdbscan8	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+sm: tabu_semantic_similarity4	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
+sm: tabu_semantic_similarity8	  Word Changed Percent: 0.62 	 USE Sim: 0.081 	 PP Diff: 1.6
